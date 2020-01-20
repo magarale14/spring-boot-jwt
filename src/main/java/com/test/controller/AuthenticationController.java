@@ -1,16 +1,21 @@
-package com.devglan.controller;
+package com.test.controller;
 
-import com.devglan.config.JwtTokenUtil;
-import com.devglan.model.*;
-import com.devglan.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.ResponseEntity;
 import org.springframework.security.authentication.AuthenticationManager;
 import org.springframework.security.authentication.UsernamePasswordAuthenticationToken;
-import org.springframework.security.core.Authentication;
 import org.springframework.security.core.AuthenticationException;
-import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.CrossOrigin;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.devglan.model.User;
+import com.test.config.JwtTokenUtil;
+import com.test.model.ApiResponse;
+import com.test.model.AuthToken;
+import com.test.model.LoginUser;
+import com.test.service.UserService;
 
 @CrossOrigin(origins = "*", maxAge = 3600)
 @RestController

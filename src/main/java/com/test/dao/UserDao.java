@@ -1,4 +1,4 @@
-package com.devglan.dao;
+package com.test.dao;
 
 import com.devglan.model.User;
 import org.springframework.data.repository.CrudRepository;

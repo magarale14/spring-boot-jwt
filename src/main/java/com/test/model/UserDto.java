@@ -1,4 +1,4 @@
-package com.devglan.model;
+package com.test.model;
 
 public class UserDto {
 

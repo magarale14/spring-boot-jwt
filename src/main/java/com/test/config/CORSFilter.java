@@ -1,4 +1,4 @@
-package com.devglan.config;
+package com.test.config;
 
 import java.io.IOException;
 

@@ -1,9 +1,9 @@
-package com.devglan.service;
-
-import com.devglan.model.User;
-import com.devglan.model.UserDto;
+package com.test.service;
 
 import java.util.List;
+
+import com.devglan.model.User;
+import com.test.model.UserDto;
 
 public interface UserService {
 
