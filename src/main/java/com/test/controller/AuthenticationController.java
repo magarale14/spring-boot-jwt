@@ -10,11 +10,11 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.devglan.model.User;
 import com.test.config.JwtTokenUtil;
 import com.test.model.ApiResponse;
 import com.test.model.AuthToken;
 import com.test.model.LoginUser;
+import com.test.model.User;
 import com.test.service.UserService;
 
 @CrossOrigin(origins = "*", maxAge = 3600)

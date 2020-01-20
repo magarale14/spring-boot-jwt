@@ -12,7 +12,7 @@ import org.springframework.security.core.authority.SimpleGrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.stereotype.Component;
 
-import com.devglan.model.User;
+import com.test.model.User;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

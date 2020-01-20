@@ -2,7 +2,7 @@ package com.test.service;
 
 import java.util.List;
 
-import com.devglan.model.User;
+import com.test.model.User;
 import com.test.model.UserDto;
 
 public interface UserService {
